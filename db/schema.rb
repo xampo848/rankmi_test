@@ -27,10 +27,10 @@ ActiveRecord::Schema.define(version: 20180517020624) do
     t.string "role"
     t.string "area"
     t.string "world"
-    t.integer "family_goals_id"
+    t.integer "family_goal_id"
     t.datetime "created_at", null: false
     t.datetime "updated_at", null: false
-    t.index ["family_goals_id"], name: "index_users_on_family_goals_id"
+    t.index ["family_goal_id"], name: "index_users_on_family_goal_id"
   end
 
 end

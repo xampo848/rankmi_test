@@ -1,3 +1,5 @@
+# this module is for user family goal assign
+# evaluating if a family goals change is needed
 module FamilyGoalAssignor
   extend ActiveSupport::Concern
 
